@@ -8,9 +8,15 @@ let testString;
 ///   Functions   ///
 /////////////////////
 
+// getInput and test if it only contains a-z or A-Z
 function getInput() {
     testString = document.querySelector('#stringInput').value;
-    console.log('testString', testString);
+    var reg = /^[a-zA-Z]+$/;
+    if (reg.test(testString)) {
+        console.log(reg.test(testString));
+    } else {
+        alert('Please use only letters. UPPERCASE and lowercase are acceptable')
+    }
 }
 
 function reversal() {
