@@ -36,7 +36,7 @@ function alphabits() {
     palindrome();
 }
 
-// determine whether the string is a palindrome. If it is, display the text "Your string is a palidrome" in the DOM, below the text input.
+// determine whether the string is a palindrome. If it is, display the text "Your string is a palindrome" in the DOM, below the text input.
 function palindrome() {
     // to lowercase
     var lowerTestString = testString.toLowerCase();
