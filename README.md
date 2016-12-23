@@ -1,7 +1,5 @@
 # SP_JS_ARRAYS_STRING_MANIPULATION
 
-1. Copy the code below into the JavaScript file
-
 1. In your HTML, create a text input and a button.
 
 1. The text input should only accept letters. No numbers.
