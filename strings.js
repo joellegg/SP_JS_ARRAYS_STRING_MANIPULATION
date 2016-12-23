@@ -26,20 +26,8 @@ function getInput() {
 
 // reverses the order of the characters in the string, and outputs the result in the DOM, below the text input.
 function reversal() {
-    // Step 1. Use the split() method to return a new array
-    let splitString = testString.split(""); // var splitString = "hello".split("");
-    // ["h", "e", "l", "l", "o"]
-
-    // Step 2. Use the reverse() method to reverse the new created array
-    let reverseArray = splitString.reverse(); // var reverseArray = ["h", "e", "l", "l", "o"].reverse();
-    // ["o", "l", "l", "e", "h"]
-
-    // Step 3. Use the join() method to join all elements of the array into a string
-    joinArray = reverseArray.join(""); // var joinArray = ["o", "l", "l", "e", "h"].join("");
-    // "olleh"
+    joinArray = testString.split('').reverse().join('');
     alphabits()
-    //Step 4. Return the reversed string
-    return joinArray; // "olleh"
 }
 
 // return the characters in alphabetical order, and outputs the result in the DOM, below the text input.
