@@ -35,13 +35,17 @@ function palindrome() {
 ///   Event Listeners   ///
 ///////////////////////////
 
-// Listen for enter key or button press
-var inputBox = document.querySelector('#stringInput');
+// Listen for enter key
+let inputBox = document.querySelector('#stringInput');
 inputBox.addEventListener('keydown', function(e) {
     if (e.key === 'Enter') {
         getInput();
     }
 })
+
+// Listen for button press
+let submitButton = document.querySelector('#subButton');
+submitButton.addEventListener('click', getInput);
 
 // reversal(testString);
 // alphabits(testString);
